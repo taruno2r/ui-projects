@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="section-sign-in">
+      <div class="sign-in-title">
+        <img src="logos/company.svg" class="logo-company" alt="Company Logo" />
+        <h1 class="title-primary">Sign In to your account</h1>
+      </div>
+      <div class="sign-in-box">
+        <form class="sign-in-form">
+          <div class="email">
+            <label for="email" class="input-label">Email address</label>
+            <input
+              class="input-field input-email"
+              id="email"
+              type="email"
+              required
+            />
+          </div>
+          <div class="password">
+            <label for="password" class="input-label">Password</label>
+            <input
+              class="input-field input-password"
+              id="password"
+              type="password"
+              required
+            />
+          </div>
+          <div class="remember-forget">
+            <div class="remember-me">
+              <input
+                class="checkbox"
+                type="checkbox"
+                id="remember-me"
+                name="remember-me"
+              />
+              <label class="remember-label" for="remember-me"
+                >Remember me</label
+              >
+            </div>
+            <a href="#" class="link forgot-label">Forgot Password?</a>
+          </div>
+          <button class="button button-sign-in">Sign In</button>
+        </form>
+        <div class="other-sign-in-options">
+          <div class="label-other-options">
+            <div class="divider"></div>
+            <p>Or Continue with</p>
+            <div class="divider"></div>
+          </div>
+          <div class="other-sign-in-buttons">
+            <button class="button button-other-options">
+              <img
+                src="logos/google.png"
+                class="button-logo"
+                alt="Google Logo"
+              />
+              Google
+            </button>
+            <button class="button button-other-options">
+              <img
+                src="logos/github.png"
+                class="button-logo"
+                alt="GitHub Logo"
+              />
+              GitHub
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
